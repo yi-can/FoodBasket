@@ -1,0 +1,8 @@
+rootProject.name = 'voco_task'
+include 'AuthService'
+include 'RestaurantService'
+include 'UserService'
+include 'MailService'
+include 'KafkaProducer'
+include 'KafkaConsumer'
+

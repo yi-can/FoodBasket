@@ -1,0 +1,31 @@
+server:
+  port: 9091
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27010
+      username: voco_task
+      password: root
+      database: vocoTask
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: 123456789
+
+jwt:
+  secretKey: ${secretKey}
+  issuer: ${issuer}
+
+#rabbitmqKey:
+#  register-queue: register-queue
+#  auth-exchange: auth-exchange
+#  mail-queue: queue-mail
+#  mail-binding-key: mail-key
+#  register-binding: binding-register

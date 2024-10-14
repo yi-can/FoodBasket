@@ -1,0 +1,20 @@
+server:
+  port: 9095
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: 123456789
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: moco.yemek@gmail.com
+    password: ugixzmdfqleekozc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
